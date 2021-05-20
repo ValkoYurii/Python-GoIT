@@ -33,6 +33,7 @@ def congratulate (users):
             day = new_el.weekday()
             w_day = days(day)
             if w_day == 'Sunday': w_day = 'Monday'
+            elif w_day == 'Saturday':w_day = 'Monday'
             congrat_now[w_day].append(name)
     print(congrat_now)
 
