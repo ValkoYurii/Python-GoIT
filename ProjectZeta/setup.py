@@ -1,3 +1,5 @@
+from setuptools import setup, find_packages
+
 setup(
     name = 'project_zeta',
     version = '1',
@@ -10,3 +12,4 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     description= 'project_zeta'
+)
