@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'clean_folder',
+    name = 'projectcli',
     version = '1',
      entry_points={
         'console_scripts': [
-                'clean-folder = clean_folder.clean:main',
+                'projectcli = projectcli:main',
             ]
     },
     zip_safe=False,
     packages=find_packages(),
     include_package_data=True,
-    description= 'clean folder script'
+    description= 'projectcli'
 )
