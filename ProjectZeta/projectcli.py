@@ -351,7 +351,7 @@ class Application(object):
                 
                 try:
                     find_in_range = int(input('Input range of days: '))
-                    for nday in range(find_in_range):
+                    for nday in range(find_in_range+1):
                         to_find_day = day_now + timedelta(days=nday)
                         for i, iter_dict_date in iter_dict.items():
                             if iter_dict_date.day == to_find_day.day and iter_dict_date.month == to_find_day.month:
