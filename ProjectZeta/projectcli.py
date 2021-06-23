@@ -86,7 +86,7 @@ class ClipboardAPP(object):
                 print('---------------------------------------------------------------------------------------')
                 counter_rec+=1
         else:
-            print("No contacts in database.")
+            print("No records in database.")
 
     #ПОИСК ПРОВОДИТСЯ ПО ВСЕМ ПОЛЯМ ЗАМЕТОК, В ТОМ ЧИСЛЕ ПО ТЕГАМ, И ДАТЕ        
     def search__cb(self):
